@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #51515e;
+}
+
+.box {
+  width: 1050px;
+  display: flex;
+  box-sizing: border-box;
+  margin: 50px auto;
+  box-shadow: 10px 20px 20px rgb(32, 32, 39, 0.7);
+  background-color: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.main-img {
+  width: 400px;
+  height: 550px;
+  object-fit: cover;
+  height: auto;
+}
+
+.top {
+  padding: 80px 60px;
+}
+
+.heading {
+  margin-bottom: 55px;
+}
+
+.heading h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.heading p {
+  margin: 0;
+  color: #aaa;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sign-up {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #7c7c7c;
+  text-transform: uppercase;
+}
+
+.social-network .sign-up {
+  display: block;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-network:hover {
+  border: 1px solid transparent;
+  box-shadow: 0px 10px 14px 8px rgba(145, 145, 172, 0.3);
+}
+
+.sign-up:hover {
+  color: #000;
+}
+
+.bottom {
+  border-top: 1px solid rgb(223, 222, 222);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.small {
+  font-size: 13px;
+  font-weight: 500;
+}
